@@ -3,7 +3,7 @@
 /*
  * Plugin Name: Jetpack Sharing
  * Plugin URI: http://wordpress.org/plugins/jetpack-sharing/
- * Description: The most super duper sharing tool on the interwebs. Share content with Facebook, Twitter, and many more.
+ * Description: Share content with Facebook, Twitter, and many more. <a href="options-general.php?page=sharing">Settings</a>
  * Author: Anas H. Sulaiman
  * Version: 2.5
  * Author URI: http://ahs.pw/
