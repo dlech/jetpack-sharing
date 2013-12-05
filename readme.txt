@@ -13,7 +13,7 @@ Share content with Facebook, Twitter, and many more.
 
 Let your readers share content from your website on many social networks.
 
-Features:
+= Features =
 
 * Choose social networks buttons you'd like to add.
 * Drag and drop style for button selection.
@@ -24,6 +24,30 @@ Features:
 * Open links in the same window, or in a new one.
 * Choose where the buttons show up.
 * Preview how the buttons will be appear on your website, right from the settings page.
+
+= Supported services =
+
+* Twitter
+* Facebook
+* Tumblr
+* Google+
+* Pinterest
+* Digg
+* Stumbleupon
+* Reddit
+* Pocket
+* LinkedIn
+* Press This (only available on sites that are part of a multisite network)
+* Email
+* Print
+
+= More details? =
+
+Here’s a quick video to show you all the great things you can do with Sharing:
+
+[wpvideo NSd9EyhT]
+
+= Notes =
 
 [Jetpack](http://wordpress.org/plugins/jetpack/) is a plugin that ships with many modules. Why install the whole package, if you're just interested in one module?!
 
@@ -40,7 +64,7 @@ Things you'd be happy to know:
 Note: Translations was not included, due to the fact that Jetpack uses one transaltion file for all the modules, which makes it really difficult to extract translations.
 The good news is that the module can be translated easily.
 
-**You may also like:**
+= You may also like =
 
 * [Jetpack Omnisearch](http://wordpress.org/plugins/jetpack-omnisearch/) - A single search box, that lets you search many different things.
 * [Jetpack Gravatar Hovercards](http://wordpress.org/plugins/jetpack-gravatar-hovercards/) - Show a pop-up business card of your users' gravatar profiles in comments.
@@ -54,7 +78,8 @@ The good news is that the module can be translated easily.
 
 == Screenshots ==
 
-1. Settings
+1. Settings menu
+2. Settings
 2. Example
 
 == Changelog ==
