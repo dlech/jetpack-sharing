@@ -51,7 +51,7 @@ Here’s a quick video to show you all the great things you can do with Sharing:
 
 [Jetpack](http://wordpress.org/plugins/jetpack/) is a plugin that ships with many modules. Why install the whole package, if you're just interested in one module?!
 
-This plugin is the exact Sharing module of the original Jetpack plugin, only without all the extra stuff.
+This plugin is the exact [Sharing module](http://jetpack.me/support/sharing/) of the original Jetpack plugin, only without all the extra stuff.
 
 The version number of this plugin will follow the version number of Jetpack. This way, it's easier for you to know which Jetpack version this module was extracted from.
 
