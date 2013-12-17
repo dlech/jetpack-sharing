@@ -5,7 +5,7 @@
  * Plugin URI: http://wordpress.org/plugins/jetpack-sharing/
  * Description: Share content with Facebook, Twitter, and many more. <a href="options-general.php?page=sharing">Settings</a>
  * Author: Anas H. Sulaiman
- * Version: 2.5
+ * Version: 2.7
  * Author URI: http://ahs.pw/
  * Text Domain: jetpack-sharing
  * Domain Path: /languages/
@@ -26,17 +26,19 @@
 if ( !function_exists( 'sharing_init' ) )
 	include dirname( __FILE__ ).'/sharedaddy/sharedaddy.php';
 
-// add_action( 'jetpack_modules_loaded', 'sharedaddy_loaded' );
+/*
+add_action( 'jetpack_modules_loaded', 'sharedaddy_loaded' );
 
-// function sharedaddy_loaded() {
-//         Jetpack::enable_module_configurable( __FILE__ );
-//         Jetpack::module_configuration_load( __FILE__, 'sharedaddy_configuration_load' );
-// }
+function sharedaddy_loaded() {
+        Jetpack::enable_module_configurable( __FILE__ );
+        Jetpack::module_configuration_load( __FILE__, 'sharedaddy_configuration_load' );
+}
 
-// function sharedaddy_configuration_load() {
-//         wp_safe_redirect( menu_page_url( 'sharing', false ) . "#sharing-buttons" );
-//         exit;
-// } // Edited by Anas H. Sulaiman
+function sharedaddy_configuration_load() {
+        wp_safe_redirect( menu_page_url( 'sharing', false ) . "#sharing-buttons" );
+        exit;
+} 
+*/ // Edited by Anas H. Sulaiman
 
 add_action( 'plugins_loaded', 'sharing_load_textdomain' ); // Edited by Anas H. Sulaiman
 function sharing_load_textdomain() {
