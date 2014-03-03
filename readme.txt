@@ -2,8 +2,8 @@
 Contributors: ahspw
 Tags: share, social, facebook, google, twitter, pinterest, linkedin, stumbleupon, reddit, digg, tumblr, sharing, jetpack
 Requires at least: 3.5
-Tested up to: 3.8
-Stable tag: 2.7
+Tested up to: 3.8.1
+Stable tag: 2.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,10 @@ Here’s a quick video to show you all the great things you can do with Sharing:
 
 [wpvideo NSd9EyhT]
 
+= Even more details? =
+
+Check out [Jetpack Sharing module page](http://jetpack.me/support/sharing/).
+
 = Notes =
 
 [Jetpack](http://wordpress.org/plugins/jetpack/) is a plugin that ships with many modules. Why install the whole package, if you're just interested in one module?!
@@ -86,5 +90,3 @@ The good news is that the module can be translated easily.
 
 = 2.5 =
 * Initial release
-= 2.7 =
-* Update to Jetpack 2.7

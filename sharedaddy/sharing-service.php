@@ -5,13 +5,12 @@ include_once dirname( __FILE__ ).'/sharing-sources.php';
 // define( 'WP_SHARING_PLUGIN_VERSION', JETPACK__VERSION ); // Edited by Anas H. Sulaiman
 define( 'WP_SHARING_PLUGIN_VERSION', '1.0' ); // Edited by Anas H. Sulaiman
 
-
 class Sharing_Service {
 	private $global = false;
 	var $default_sharing_label = '';
 
 	public function __construct() {
-		$this->default_sharing_label = __( 'Share this:', 'jetpack' );
+		$this->default_sharing_label = __( 'Share this:', 'jetpack-sharing' );
 	}
 
 	/**
@@ -550,9 +549,9 @@ function sharing_display( $text = '', $echo = false ) {
 			$parts[] = $visible;
 			if ( count( $enabled['hidden'] ) > 0 ) {
 				if ( count( $enabled['visible'] ) > 0 )
-					$expand = __( 'More', 'jetpack' );
+					$expand = __( 'More', 'jetpack-sharing' );
 				else
-					$expand = __( 'Share', 'jetpack' );
+					$expand = __( 'Share', 'jetpack-sharing' );
 				$parts[] = '<li><a href="#" class="sharing-anchor sd-button share-more"><span>'.$expand.'</span></a></li>';
 			}
 

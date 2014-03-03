@@ -5,7 +5,7 @@
  * Plugin URI: http://wordpress.org/plugins/jetpack-sharing/
  * Description: Share content with Facebook, Twitter, and many more. <a href="options-general.php?page=sharing">Settings</a>
  * Author: Anas H. Sulaiman
- * Version: 2.7
+ * Version: 2.9
  * Author URI: http://ahs.pw/
  * Text Domain: jetpack-sharing
  * Domain Path: /languages/
@@ -21,6 +21,7 @@
  * Major Changes In: 1.2
  * Requires Connection: No
  * Auto Activate: Yes
+ * Module Tags: Social
  */
 
 if ( !function_exists( 'sharing_init' ) )
@@ -46,7 +47,5 @@ function sharing_load_textdomain() {
 } // Edited by Anas H. Sulaiman
 
 /*
-* Edits are denoted by the comment: Edited by Anas H. Sulaiman.
-* Other edits are listed here:
-* Edit 1: 
+* Edits are denoted by the comment: Edited by Anas H. Sulaiman. 
 */
