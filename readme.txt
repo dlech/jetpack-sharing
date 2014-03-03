@@ -89,4 +89,17 @@ The good news is that the module can be translated easily.
 == Changelog ==
 
 = 2.5 =
+
 * Initial release
+
+= 2.7 = 
+
+* Update to 2.7
+
+= 2.9 =
+
+* Update to 2.9:
+* Add filter sharing_display_link
+* Add get_share_title function and filter
+* Display buttons on CPT archive pages
+* Adding keyboard accessibility to sharing buttons config page
