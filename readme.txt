@@ -61,7 +61,7 @@ The version number of this plugin will follow the version number of Jetpack. Thi
 
 Things you'd be happy to know:
 
-* The module is almost untouched. (Some lines had to be removed and some had to be added, for the sole reason of making the module a stand-alone plugin)
+* The module is almost untouched. (Some lines had to be removed and some had to be added, for the sole reason of making the module a stand-alone plugin).
 * The module was carefully extracted from the package. That means there is no missing feature or some irrelevant code.
 * The module does not require a connection to a WordPress.com account.
 
@@ -70,9 +70,10 @@ The good news is that the module can be translated easily.
 
 = You may also like =
 
-* [Jetpack Omnisearch](http://wordpress.org/plugins/jetpack-omnisearch/) - A single search box, that lets you search many different things.
-* [Jetpack Gravatar Hovercards](http://wordpress.org/plugins/jetpack-gravatar-hovercards/) - Show a pop-up business card of your users' gravatar profiles in comments.
 * [Jetpack Widget Visibility](http://wordpress.org/plugins/jetpack-widget-visibility/) - Control what pages your widgets appear on.
+* [Jetpack Gravatar Hovercards](http://wordpress.org/plugins/jetpack-gravatar-hovercards/) - Show a pop-up business card of your users' gravatar profiles in comments.
+* [Jetpack Omnisearch](http://wordpress.org/plugins/jetpack-omnisearch/) - A single search box, that lets you search many different things.
+* [Jetpack Markdown](http://wordpress.org/plugins/jetpack-markdown/) - Write in Markdown, publish in HTML.
 
 == Installation ==
 

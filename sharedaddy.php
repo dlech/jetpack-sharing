@@ -3,7 +3,7 @@
 /*
  * Plugin Name: Jetpack Sharing
  * Plugin URI: http://wordpress.org/plugins/jetpack-sharing/
- * Description: Share content with Facebook, Twitter, and many more. <a href="options-general.php?page=sharing">Settings</a>
+ * Description: Share content with Facebook, Twitter, and many more.
  * Author: Anas H. Sulaiman
  * Version: 2.9
  * Author URI: http://ahs.pw/
@@ -27,6 +27,7 @@
 if ( !function_exists( 'sharing_init' ) )
 	include dirname( __FILE__ ).'/sharedaddy/sharedaddy.php';
 
+// E-1 {
 /*
 add_action( 'jetpack_modules_loaded', 'sharedaddy_loaded' );
 
@@ -39,13 +40,30 @@ function sharedaddy_configuration_load() {
         wp_safe_redirect( menu_page_url( 'sharing', false ) . "#sharing-buttons" );
         exit;
 } 
-*/ // Edited by Anas H. Sulaiman
+*/
+// }
 
-add_action( 'plugins_loaded', 'sharing_load_textdomain' ); // Edited by Anas H. Sulaiman
-function sharing_load_textdomain() {
+// E-2 {
+function jetpack_sharing_load_textdomain() {
 	load_plugin_textdomain( 'jetpack-sharing', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-} // Edited by Anas H. Sulaiman
+}
+add_action( 'plugins_loaded', 'jetpack_sharing_load_textdomain' );
+// }
+
+// E-3 {
+function jetpack_sharing_settings_link($actions) {
+	return array_merge(
+		array( 'settings' => sprintf( '<a href="%s">%s</a>', 'options-general.php?page=sharing', __( 'Settings', 'jetpack-sharing' ) ) ),
+		$actions
+	);
+	return $actions;
+}
+add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'jetpack_sharing_settings_link' );
+// }
 
 /*
-* Edits are denoted by the comment: Edited by Anas H. Sulaiman. 
+Edits by Anas H. Sulaiman:
+E-1 : comment out Jetpack specific code
+E-2 : load text domain
+E-3 : add settings link
 */
