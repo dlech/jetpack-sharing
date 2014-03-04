@@ -10,7 +10,7 @@ class Sharing_Service {
 	var $default_sharing_label = '';
 
 	public function __construct() {
-		$this->default_sharing_label = __( 'Share this:', 'jetpack-sharing' );
+		$this->default_sharing_label = __( 'Share this:', 'jetpack-sharing' ); // E-1
 	}
 
 	/**
@@ -549,9 +549,9 @@ function sharing_display( $text = '', $echo = false ) {
 			$parts[] = $visible;
 			if ( count( $enabled['hidden'] ) > 0 ) {
 				if ( count( $enabled['visible'] ) > 0 )
-					$expand = __( 'More', 'jetpack-sharing' );
+					$expand = __( 'More', 'jetpack-sharing' ); // E-1
 				else
-					$expand = __( 'Share', 'jetpack-sharing' );
+					$expand = __( 'Share', 'jetpack-sharing' ); // E-1
 				$parts[] = '<li><a href="#" class="sharing-anchor sd-button share-more"><span>'.$expand.'</span></a></li>';
 			}
 
@@ -633,7 +633,6 @@ function get_base_recaptcha_lang_code() {
 }
 
 /*
-* Edits are denoted by the comment: Edited by Anas H. Sulaiman.
-* Other edits are listed here:
-* Edit 1: replaced text domain
+Edits by Anas H. Sulaiman:
+E-1: replace text domain
 */

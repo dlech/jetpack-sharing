@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Jetpack Sharing v2.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-03-03 05:15:10+0000\n"
+"PO-Revision-Date: 2014-03-04 05:45:38+0000\n"
 "Last-Translator: Anas H. Sulaiman <anas@ahs.pw>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -38,6 +38,7 @@ msgstr "إظهار أزرار المشاركة"
 
 #: sharedaddy/sharedaddy.php:79
 #: sharedaddy/sharedaddy.php:86
+#: sharedaddy.php:56
 #@ jetpack-sharing
 msgid "Settings"
 msgstr "إعدادات"
@@ -83,13 +84,13 @@ msgstr "البريد الإلكتروني"
 #: sharedaddy/sharing-sources.php:250
 #@ jetpack-sharing
 msgid "This post has been shared!"
-msgstr "تمت مشاركة هذا المنشور!"
+msgstr "تمت مشاركة هذه التدوينة!"
 
 #: sharedaddy/sharing-sources.php:251
 #, php-format
 #@ jetpack-sharing
 msgid "You have shared this post with %s"
-msgstr "لقد شاركت هذا المنشور مع %s"
+msgstr "لقد شاركت هذه التدوينة مع %s"
 
 #: sharedaddy/sharing-sources.php:252
 #@ jetpack-sharing
@@ -135,7 +136,7 @@ msgstr "إلغاء"
 #: sharedaddy/sharing-sources.php:310
 #@ jetpack-sharing
 msgid "Post was not sent - check your email addresses!"
-msgstr "لم يرسل المنشور - تأكد من عناوين البريد الإلكتروني!"
+msgstr "لم ترسل التدوينة - تأكد من عناوين البريد الإلكتروني!"
 
 #: sharedaddy/sharing-sources.php:314
 #@ jetpack-sharing
@@ -145,7 +146,7 @@ msgstr "فشل التحقق من البريد الإلكتروني، رجاء ح
 #: sharedaddy/sharing-sources.php:318
 #@ jetpack-sharing
 msgid "Sorry, your blog cannot share posts by email."
-msgstr "عفواً، لا يمكن لمدونتك مشاركة المنشورات عبر البريد الإلكتروني."
+msgstr "عفواً، لا يمكن لمدونتك مشاركة التدوينات عبر البريد الإلكتروني."
 
 #: sharedaddy/sharing-sources.php:341
 #@ jetpack-sharing
@@ -263,12 +264,12 @@ msgstr "انشر هذا"
 #@ jetpack-sharing
 msgctxt "share to"
 msgid "Press This"
-msgstr ""
+msgstr "انشر هذا"
 
 #: sharedaddy/sharing-sources.php:823
 #@ jetpack-sharing
 msgid "Click to Press This!"
-msgstr "إضغط لنشر هذا!"
+msgstr "اضغط لنشر هذا!"
 
 #: sharedaddy/sharing-sources.php:841
 #@ jetpack-sharing
@@ -400,7 +401,7 @@ msgstr "أزرار المشاركة"
 #: sharedaddy/sharing.php:172
 #@ jetpack-sharing
 msgid "Add sharing buttons to your blog and allow your visitors to share posts with their friends."
-msgstr "أضف أزرار المشاركة إلى مدونتك واسمح للزوار بمشاركة منشوراتك مع أصدقائهم."
+msgstr "أضف أزرار المشاركة إلى مدونتك واسمح للزوار بمشاركة تدويناتك مع أصدقائهم."
 
 #: sharedaddy/sharing.php:178
 #@ jetpack-sharing
@@ -575,7 +576,7 @@ msgstr ""
 #, php-format
 #@ jetpack-sharing
 msgid "%1$s (%2$s) thinks you may be interested in the following post:"
-msgstr ""
+msgstr "%1$s (%2$s) يعتقد أنك قد تكون مهتماً بالتدوينة التالية:"
 
 #. translators: plugin header field 'PluginURI'
 #: sharedaddy.php:0
@@ -583,15 +584,15 @@ msgstr ""
 msgid "http://wordpress.org/plugins/jetpack-sharing/"
 msgstr ""
 
-#. translators: plugin header field 'Description'
-#: sharedaddy.php:0
-#@ jetpack-sharing
-msgid "Share content with Facebook, Twitter, and many more. <a href=\"options-general.php?page=sharing\">Settings</a>"
-msgstr ""
-
 #. translators: plugin header field 'Version'
 #: sharedaddy.php:0
 #@ jetpack-sharing
 msgid "2.9"
 msgstr ""
+
+#. translators: plugin header field 'Description'
+#: sharedaddy.php:0
+#@ jetpack-sharing
+msgid "Share content with Facebook, Twitter, and many more."
+msgstr "شارك المحتوى مع فيسبوك وتويتر والعديد من الخدمات الأخرى."
 
