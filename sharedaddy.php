@@ -5,7 +5,7 @@
  * Plugin URI: http://wordpress.org/plugins/jetpack-sharing/
  * Description: Share content with Facebook, Twitter, and many more.
  * Author: Anas H. Sulaiman
- * Version: 2.9
+ * Version: 2.9.3
  * Author URI: http://ahs.pw/
  * Text Domain: jetpack-sharing
  * Domain Path: /languages/

@@ -52,9 +52,9 @@ class Sharing_Admin {
 		// 	$active = Jetpack::get_active_modules();
 		// 	if ( !in_array( 'publicize', $active ) && !current_user_can( 'manage_options' ) )
 		// 		return;
-		// } // Edited by Anas H. Sulaiman
+		// } // E-2
 
-		if ( !current_user_can( 'manage_options' ) ) return; // Edited by Anas H. Sulaiman
+		if ( !current_user_can( 'manage_options' ) ) return; // // E-2
 		add_submenu_page( 'options-general.php', __( 'Sharing Settings', 'jetpack-sharing' ), __( 'Sharing', 'jetpack-sharing' ), 'publish_posts', 'sharing', array( &$this, 'management_page' ) ); // E-1
 	}
 
@@ -438,4 +438,5 @@ add_action( 'init', 'sharing_admin_init' );
 /*
 Edits by Anas H. Sulaiman:
 E-1: replace text domain
+E-2: disconnect from wordpress.com
 */

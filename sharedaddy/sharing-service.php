@@ -2,8 +2,8 @@
 
 include_once dirname( __FILE__ ).'/sharing-sources.php';
 
-// define( 'WP_SHARING_PLUGIN_VERSION', JETPACK__VERSION ); // Edited by Anas H. Sulaiman
-define( 'WP_SHARING_PLUGIN_VERSION', '1.0' ); // Edited by Anas H. Sulaiman
+// define( 'WP_SHARING_PLUGIN_VERSION', JETPACK__VERSION ); // E-2
+define( 'WP_SHARING_PLUGIN_VERSION', '1.0' ); // E-2
 
 class Sharing_Service {
 	private $global = false;
@@ -504,7 +504,7 @@ function sharing_display( $text = '', $echo = false ) {
 	if ( !is_feed() ) {
 		if ( is_singular() && in_array( get_post_type(), $global['show'] ) ) {
 			$show = true;
-		} elseif ( in_array( 'index', $global['show'] ) && ( is_home() || is_archive() || is_search() ) ) {
+		} elseif ( in_array( 'index', $global['show'] ) && ( is_home() || is_archive() || is_search() || in_array( get_post_type(), $global['show'] ) ) ) {
 			$show = true;
 		}
 	}
@@ -635,4 +635,5 @@ function get_base_recaptcha_lang_code() {
 /*
 Edits by Anas H. Sulaiman:
 E-1: replace text domain
+E-2: remove jetpack dependency
 */
